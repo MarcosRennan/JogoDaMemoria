@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Jogo da Memória</title>
+    <meta name="description" content="">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Jogo da Memória</h1>
+        </header>
+
+        <section class="score-panel">
+        	<ul class="stars">
+        		<li><i class="estrela-tela fa fa-star"></i></li>
+        		<li><i class="estrela-tela fa fa-star"></i></li>
+                <li><i class="estrela-tela fa fa-star"></i></li>
+                <li><i class="estrela-tela fa fa-star"></i></li>
+                <li><i class="estrela-tela fa fa-star"></i></li>
+        	</ul>
+
+            <span class="moves">0</span> Movimentos
+            <span class="mins">0</span> mins
+            <span class="segs">0</span> segs
+            <div class="restart">
+        		<i class="fa fa-repeat"></i>
+        	</div>
+        </section>
+
+        <ul class="deck row">
+            <li class="card">
+                <i class="fa fa-diamond"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-paper-plane-o"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-anchor"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-bolt"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-cube"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-anchor"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-leaf"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-bicycle"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-diamond"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-bomb"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-leaf"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-bomb"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-bolt"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-bicycle"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-paper-plane-o"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-cube"></i>
+            </li>
+        </ul>
+        <div id="alerta-vitoria" class="">
+            <div class="alerta">
+                <h2>Você ganhou!</h2>
+                <div class="resultado">
+                    <span class="moves">0</span> Movimentos
+                    <p>Tempo: <span id="crono"></span></p>
+                    <section class="score-panel alerta">
+                        <ul class="stars">
+                            <li><i class="estrela-modal fa fa-star"></i></li>
+                            <li><i class="estrela-modal fa fa-star"></i></li>
+                            <li><i class="estrela-modal fa fa-star"></i></li>
+                            <li><i class="estrela-modal fa fa-star"></i></li>
+                            <li><i class="estrela-modal fa fa-star"></i></li>
+                        </ul>            
+                    </section>
+                </div>
+                <button id="reiniciar" class="btn btn-primary">Jogar novamente</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
