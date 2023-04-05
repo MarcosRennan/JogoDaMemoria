@@ -59,13 +59,13 @@ function aumentarJogadas(){
 //função para remover estrelas
 function removerEstrela(){
     let estrelas = $('.estrela-tela');
-    if(jogadas === 22 || jogadas === 28 || jogadas === 34 || jogadas === 40){
+    if(jogadas === 23 || jogadas === 29 || jogadas === 35 || jogadas === 41){
         $(estrelas[estrelas.length-1]).toggleClass('estrela-tela fa-star fa-star-o');
     }
 }
 function removerEstrelaModal(){
     let estrelas = $('.estrela-modal');
-    if(jogadas === 22 || jogadas === 28 || jogadas === 34 || jogadas === 40){
+    if(jogadas === 23 || jogadas === 29 || jogadas === 35 || jogadas === 41){
         $(estrelas[estrelas.length-1]).toggleClass('estrela-modal fa-star fa-star-o');
     }
 }
