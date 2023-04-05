@@ -20,11 +20,11 @@ nesse momento aparece uma tela, mostrando os resultados do jogo: como tempo, qua
 
 ## Ranking de estrelas
 o Jogo é formado por um ranking de estrelas, que é contado levando em consideração a quantidade de movimentos.
-5 estrelas: até 22 movimentos
-4 estrelas: até 28 movimentos
-3 estrelas: até 34 movimentos
-2 estrelas: até 40 movimentos
-1 estrela: acima de 40 movimentos
+1. 5 estrelas: até 22 movimentos
+2. 4 estrelas: até 28 movimentos
+3. 3 estrelas: até 34 movimentos
+4. 2 estrelas: até 40 movimentos
+5. 1 estrela: acima de 40 movimentos
 
 ## Tela de fim de jogo
 
