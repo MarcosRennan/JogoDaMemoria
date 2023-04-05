@@ -29,7 +29,7 @@ O Jogo é formado por um ranking de estrelas, que é contado levando em consider
 ## Tela de fim de jogo
 
 Quando o usuario encontra todos os pares no tabuleiro, é apresentado na tela uma caixa com:
-1. quantidade de movimentos
-2. tempo
+1. Quantidade de movimentos
+2. Tempo
 3. Ranking de estrelas.
 
