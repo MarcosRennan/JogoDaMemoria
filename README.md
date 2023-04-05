@@ -8,9 +8,6 @@ Este é um jogo clássico, que é formado por varias cartas viradas para baixo, 
 * [Ranking de estrelas](#Ranking_de_estrelas)
 * [Tela de fim de jogo](#Tela_de_fim_de_jogo)
 
-## Como baixar
-jogo encontra-se disponivel no repositorio GitHub no endereço: https://github.com/Lucasfgaspar/JogoDaMemoria
-
 ## Como jogar
 
 1. Escolha duas cartas clicando nelas para elas desvirarem;
