@@ -19,7 +19,7 @@ O jogo termina no momento em que todas as cartas estão viradas.
 nesse momento aparece uma tela, mostrando os resultados do jogo: como tempo, quantidade de movimentos, e uma qualificação por estrelas.
 
 ## Ranking de estrelas
-o Jogo é formado por um ranking de estrelas, que é contado levando em consideração a quantidade de movimentos.
+O Jogo é formado por um ranking de estrelas, que é contado levando em consideração a quantidade de movimentos.
 1. 5 estrelas: até 22 movimentos
 2. 4 estrelas: até 28 movimentos
 3. 3 estrelas: até 34 movimentos
